@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
-const { registerSchema, loginSchema } = require('../schema');
+const { registerSchema, loginSchema } = require('../shared/schema');
 const mongo = require('../shared/mongo');
 const { validate } = require('joi');
 

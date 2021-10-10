@@ -2,8 +2,8 @@ const { ObjectId } = require('mongodb');
 
 const mongo = require('../shared/mongo');
 
-const { postSchema } = require('../schema');
-const { putSchema } = require('../schema');
+const { postSchema } = require('../shared/schema');
+const { putSchema } = require('../shared/schema');
 
 const { validate } = require('joi');
 
