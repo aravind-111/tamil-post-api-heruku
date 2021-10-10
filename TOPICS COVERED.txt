@@ -1,0 +1,6 @@
+Topics : 
+
+    Authentication - Register and Login Flow
+    Bcrypt - genSalt(), hash() and compare()
+    Authorization
+    JSON Web Tokens (JWT) - sign() and verify()
