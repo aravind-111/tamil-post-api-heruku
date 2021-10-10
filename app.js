@@ -37,7 +37,9 @@ const PORT = '3001' || process.env.PORT;
     app.use('/posts', postRoutes);
 
     // Server Start
-    app.listen(PORT, () => console.log(`server running at port ${PORT}`));
+    app.listen(process.env.PORT, () =>
+      console.log(`server running at port ${process.env.PORT}`)
+    );
   } catch (err) {
     console.log('Error in Connecting', err);
   }
